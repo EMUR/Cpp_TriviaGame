@@ -1,0 +1,59 @@
+- variable (x) in a class it's access specifier set to Private. Which functions can access the variable?
+Only member functions within the same class.
+Only functions called in main function.
+None, because it's private.
+Only a member function pointing to the variable.
+
+- ( x ) is an int variable in a class, we didn't set it's access specifier to anything, the compiler is going to ?
+set it to Private by default.
+Give us compiling error, and refuses to run.
+Run, but crash.
+set it to Public by default.
+
+- GetWeight () is a constant member function that returns an int, what is the right declaration of it?
+int GetWeight () const;
+int const GetWeight () ;
+const int GetWeight () ;
+none, because classes can't deal with constant functions.
+
+- The symbol (::) in classes is called ?
+Scope resolution operator.
+Class linker operator.
+Linked List operator.
+Nothing, it's just two colons in a parentheses.
+
+- The symbol (—->) in classes is called ?
+Nothing, it's just an arrow.
+Pointer to Pointer operator.
+Class linker operator.
+Scope resolution operator.
+
+- int GetWeight () is a public member function, it's best described as?
+Both, options Accessor and Get function.
+Accessor.
+Get function.
+Mutator.
+
+- void setNumer(const int x); is a public member function, it's best described as?
+Mutator.
+It's invalid, because classes  can't deal with constants.
+Accessor.
+Special Function.
+
+- To access public members of a class in the main function you should use?
+Dot operator.
+Hex editor.
+Nothing, because you can't access it in the main function.
+Parallel Class.
+
+- If we were trying to access a private member of a class in the main function, it's going to ?
+Give us compiling error, and refuses to run.
+Access it normally.
+Ignore it, because you can't access classes it in the main function.
+Run, but crash.
+
+- To define  rPtr as a pointer to an object in a class called Rectangle, we should write it as?
+Rectangle *rPtr;
+*(Rectangle->rPtr)
+we can't have pointer as an object of a class.
+*ptr= obj_Rectangle.
